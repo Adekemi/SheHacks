@@ -3,9 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>Quick hummus recipe</title>
+    <style>
+        
+        div {
+            margin: 0 100px;
+        }
+        
+        body {
+            background-color: linen;
+        }
+        h1 {
+            color: purple; 
+            font-size: 36px; 
+            text-align: center;   
+        }
+      
+      
+    </style>
   </head>
+    
+    
   <body>
+    <div>
     <h1>Quick hummus recipe</h1>
+<!--    <h1 style="color:purple; font-size: 36px; text-align: center;">Quick hummus recipe</h1>-->
+            
+
 
     <p style= "border: 10px solid blue;">This recipe makes quick, tasty hummus, with no messing. It has been adapted from a number of different recipes that I have read over the years.</p>
 
@@ -91,13 +114,66 @@
           <li>KFC</li>
       </ol>
       
-      <p> This is to confirm if the p tag is ablock or inline element</p>
-      <p> This is to confirm if the p tag is ablock or inline element</p>
-      
-      
-      
+      <form>
+          First Name:<br>
+          <input type="text" name="firstname" placeholder="Enter First Name"><br>
+          Last Name:<br>
+          <input type="text" name="lastname" placeholder="Enter Last Name">
+          <br>
+          Email:<br>
+          <input type="email" name="email">
+          <br>
+          User Name:<br>
+          <input type="text" name="username"><br>
+          <br>
+          Password:<br>
+          <input type="password" name="pwd"><br>
+          <br>
 
+          <input type="radio" name="gender" value="male">Okunrin<br>
+          <input type="radio" name="gender" value="female">Obinrin <br>
+          
+          What coding languages do you write? <br>
+          
+          <input type="checkbox" name="language" value="Java">Java<br>
+          <input type="checkbox" name="language" value="Javascript">Javascript<br>
+          <input type="checkbox" name="language" value="C#">C#<br>
+          <input type="checkbox" name="language" value="C++">C++<br>
+          <input type="checkbox" name="language" value="Python">Python<br>
+          <input type="checkbox" name="language" value="R">R<br>
+          <input type="checkbox" name="language" value="mySQL">mySQL<br>
+          <input type="checkbox" name="language" value="php">php<br>
+          
+          <textarea name="message" rows="10" cols="30"></textarea>
+          
+          <br>
+          What is your favorite car?
+          <br>
+          <select name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+          </select>
+          <br><br>
+          <button type="button" onclick="alert('SheHacks Team 4 rocks!')">Click Me!</button>
 
+          <input type="submit" value="Submit">
+        
+          <br>
+          
+          Quantity (between 1 and 5):
+          <br>
+          <input type="number" name="quantity" min="5" max="6">
+          <input type="submit">
+          
+          <br>
+          Search Google:
+              <input type="search" name="googlesearch">
+              <input type="submit">
+      </form>
+      
+    </div>
   </body>
 </html>
 
